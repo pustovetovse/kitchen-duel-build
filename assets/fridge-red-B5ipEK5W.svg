@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 168">
+  <!-- Холодильник-штаб в духе ретро-холодильников 50-х; вид спереди, ставится вдоль края поля -->
+  <defs>
+    <rect id="b" x="12" y="10" width="296" height="146" rx="34"/>
+    <clipPath id="c"><use href="#b"/></clipPath>
+  </defs>
+  <ellipse cx="160" cy="160" rx="150" ry="8" fill="#3B2416" opacity=".18"/>
+  <use href="#b" fill="#E5484D"/>
+  <g clip-path="url(#c)">
+    <rect x="12" y="120" width="296" height="40" fill="#B83236"/>
+    <path d="M40 24L120 24" stroke="#F48A8C" stroke-width="12" stroke-linecap="round"/>
+    <rect x="12" y="10" width="296" height="16" fill="#fff" opacity=".18"/>
+  </g>
+  <use href="#b" fill="none" stroke="#3B2416" stroke-width="8"/>
+  <path d="M108 14L108 152" stroke="#3B2416" stroke-width="6"/>
+  <rect x="80" y="44" width="16" height="66" rx="8" fill="#E6E9EE" stroke="#3B2416" stroke-width="5"/>
+  <rect x="124" y="44" width="16" height="66" rx="8" fill="#E6E9EE" stroke="#3B2416" stroke-width="5"/>
+  <rect x="176" y="56" width="104" height="40" rx="20" fill="#FFF6E6" stroke="#3B2416" stroke-width="5"/>
+  <circle cx="198" cy="76" r="9" fill="#E5484D" stroke="#3B2416" stroke-width="4"/>
+  <path d="M218 70L262 70M218 82L250 82" stroke="#3B2416" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="44" cy="70" r="10" fill="#FFC93C" stroke="#3B2416" stroke-width="4"/>
+  <rect x="34" y="96" width="20" height="16" rx="4" fill="#7CC74A" stroke="#3B2416" stroke-width="4" transform="rotate(-10 44 104)"/>
+  <path d="M36 156L36 166M284 156L284 166" stroke="#3B2416" stroke-width="10" stroke-linecap="round"/>
+</svg>

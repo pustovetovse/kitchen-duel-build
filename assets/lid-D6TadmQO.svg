@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- «Под крышкой»: кастрюля, внутри настоящий боец или восковой муляж -->
+  <ellipse cx="128" cy="232" rx="96" ry="12" fill="#3B2416" opacity=".18"/>
+  <path d="M40 132L216 132L206 214C204 226 194 232 182 232L74 232C62 232 52 226 50 214Z" fill="#B9C3CF" stroke="#3B2416" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M178 140L168 226" stroke="#8C98A6" stroke-width="16" stroke-linecap="round"/>
+  <path d="M70 150L74 210" stroke="#E8EEF4" stroke-width="9" stroke-linecap="round"/>
+  <path d="M40 150C22 150 18 170 34 172M216 150C234 150 238 170 222 172" stroke="#3B2416" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M28 132C28 82 78 62 128 62C178 62 228 82 228 132Z" fill="#D7DEE6" stroke="#3B2416" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M60 112C66 92 90 80 112 78" stroke="#fff" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <rect x="20" y="124" width="216" height="18" rx="9" fill="#9AA6B4" stroke="#3B2416" stroke-width="7"/>
+  <rect x="104" y="40" width="48" height="26" rx="13" fill="#3B2416"/>
+  <path d="M128 102C116 102 112 92 120 86C128 80 140 86 136 96" stroke="#3B2416" stroke-width="7" stroke-linecap="round" fill="none" opacity=".55"/>
+  <circle cx="128" cy="114" r="4" fill="#3B2416" opacity=".55"/>
+  <g stroke="#3B2416" stroke-width="6" stroke-linecap="round" fill="none" opacity=".45">
+    <path d="M78 34C70 24 84 18 76 8M184 34C176 24 190 18 182 8"/>
+  </g>
+</svg>

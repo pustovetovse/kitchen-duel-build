@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Рубашка бойца: подставка соперника, запас -->
+  <rect x="6" y="6" width="116" height="116" rx="26" fill="#E5484D" stroke="#3B2416" stroke-width="6"/>
+  <rect x="18" y="18" width="92" height="92" rx="18" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="2 8" stroke-linecap="round" opacity=".8"/>
+  <g stroke="#3B2416" stroke-width="13" stroke-linecap="round"><path d="M44 44L84 84M84 44L44 84"/></g>
+  <g stroke="#FFF6E6" stroke-width="6" stroke-linecap="round"><path d="M44 44L84 84M84 44L44 84"/></g>
+  <circle cx="64" cy="64" r="12" fill="#FFC93C" stroke="#3B2416" stroke-width="5"/>
+</svg>

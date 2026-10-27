@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Горошина, сила 1: катится — встаёт и через одну базу от цепочки -->
+  <defs>
+    <circle id="b" cx="128" cy="148" r="78"/>
+    <clipPath id="c"><use href="#b"/></clipPath>
+    <radialGradient id="vol" cx=".34" cy=".28" r=".85">
+      <stop offset="0" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset=".35" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".72" stop-color="#3B2416" stop-opacity="0"/>
+      <stop offset="1" stop-color="#3B2416" stop-opacity=".38"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset=".7" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".35"/>
+    </linearGradient>
+  </defs>
+  <path d="M128 72C124 50 132 34 150 28C166 24 178 32 180 44C166 40 150 44 140 58" fill="#7CC74A" stroke="#3B2416" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M128 72C112 48 92 44 76 52" stroke="#3B2416" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M76 52C66 58 70 72 80 68" stroke="#3B2416" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- следы качения: дуги скорости и пыль позади -->
+  <g fill="none" stroke="#3B2416" stroke-width="7" stroke-linecap="round">
+    <path d="M30 118C22 134 22 154 30 170"/><path d="M14 132C9 144 9 156 14 166"/>
+  </g>
+  <g fill="#E9DCC6" stroke="#3B2416" stroke-width="4"><circle cx="40" cy="218" r="9"/><circle cx="22" cy="208" r="6"/></g>
+  <use href="#b" fill="#7CC74A"/>
+  <g clip-path="url(#c)">
+    <circle cx="150" cy="170" r="84" fill="#4E9A2C" transform="translate(30 30)"/>
+    <ellipse cx="96" cy="108" rx="22" ry="14" fill="#B9EE8A" transform="rotate(-30 96 108)"/>
+  </g>
+  <use href="#b" fill="url(#vol)"/>
+  <use href="#b" fill="url(#rim)" transform="translate(-6 -6)" clip-path="url(#c)"/>
+  <use href="#b" fill="none" stroke="#3B2416" stroke-width="8"/>
+  <ellipse cx="106" cy="146" rx="13" ry="16" fill="#fff" stroke="#3B2416" stroke-width="5"/>
+  <ellipse cx="152" cy="146" rx="13" ry="16" fill="#fff" stroke="#3B2416" stroke-width="5"/>
+  <circle cx="110" cy="150" r="7" fill="#3B2416"/><circle cx="156" cy="150" r="7" fill="#3B2416"/>
+  <circle cx="112" cy="146" r="2.5" fill="#fff"/><circle cx="158" cy="146" r="2.5" fill="#fff"/>
+  <ellipse cx="88" cy="174" rx="10" ry="6" fill="#F28C8C" opacity=".8"/>
+  <ellipse cx="170" cy="174" rx="10" ry="6" fill="#F28C8C" opacity=".8"/>
+  <path d="M116 176Q130 190 144 176" stroke="#3B2416" stroke-width="7" stroke-linecap="round" fill="none"/>
+</svg>

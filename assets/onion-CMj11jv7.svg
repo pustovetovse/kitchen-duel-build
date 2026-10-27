@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- крепыш с ухмылкой, слёзы у соседей -->
+  <defs>
+    <path id="b" d="M128 66C152 92 222 118 222 176C222 222 182 240 128 240C74 240 34 222 34 176C34 118 104 92 128 66Z"/>
+    <clipPath id="c"><use href="#b"/></clipPath>
+    <radialGradient id="vol" cx=".34" cy=".28" r=".85">
+      <stop offset="0" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset=".35" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".72" stop-color="#3B2416" stop-opacity="0"/>
+      <stop offset="1" stop-color="#3B2416" stop-opacity=".38"/>
+    </radialGradient>
+  </defs>
+  <path d="M120 66C112 42 98 28 82 24M128 62C130 38 138 24 154 16M136 66C150 48 166 42 182 44" stroke="#3B2416" stroke-width="15" stroke-linecap="round" fill="none"/>
+  <path d="M120 66C112 42 98 28 82 24M128 62C130 38 138 24 154 16M136 66C150 48 166 42 182 44" stroke="#6FBF4B" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <use href="#b" fill="#9B4FB0"/>
+  <g clip-path="url(#c)">
+    <path d="M196 100C236 160 220 230 150 250L250 250L250 100Z" fill="#6E2C82"/>
+    <path d="M128 70C100 110 92 180 104 240M128 70C156 110 164 180 152 240M128 70C70 110 56 180 70 230M128 70C186 110 200 180 186 230" stroke="#6E2C82" stroke-width="4" fill="none"/>
+  </g>
+  <use href="#b" fill="url(#vol)"/>
+  <use href="#b" fill="none" stroke="#3B2416" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M100 236L94 250M128 240L128 252M156 236L162 250" stroke="#3B2416" stroke-width="6" stroke-linecap="round"/>
+  <path d="M82 142L116 152M174 142L140 152" stroke="#3B2416" stroke-width="8" stroke-linecap="round"/>
+  <path d="M94 164Q104 156 114 164M142 164Q152 156 162 164" stroke="#3B2416" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M96 190Q128 222 164 186Z" fill="#fff" stroke="#3B2416" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M112 196L112 206M128 200L128 212M144 196L144 206" stroke="#3B2416" stroke-width="3"/>
+  <path d="M24 110q-8 16 0 24q8 -8 0 -24z" fill="#7FD3F7" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/><path d="M226 104q-8 16 0 24q8 -8 0 -24z" fill="#7FD3F7" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/><path d="M36 170q-6.4 12.8 0 19.200000000000003q6.4 -6.4 0 -19.200000000000003z" fill="#7FD3F7" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/>
+</svg>

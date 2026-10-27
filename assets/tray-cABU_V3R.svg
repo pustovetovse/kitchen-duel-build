@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 96">
+  <!-- Поднос игрока: деревянный, с ручками-прорезями и бортиком. Тянется по ширине
+       через border-image: края по 56, верх 22, низ 26 — не искажаются. -->
+  <defs>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E7AE68"/>
+      <stop offset="1" stop-color="#C98A45"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D99A55"/>
+      <stop offset=".18" stop-color="#F1C88E"/>
+      <stop offset="1" stop-color="#EBBB7B"/>
+    </linearGradient>
+  </defs>
+  <!-- тень под подносом -->
+  <rect x="10" y="78" width="280" height="14" rx="7" fill="#3B2416" opacity=".18"/>
+  <!-- бортик с ручками: прорези вырезаны (evenodd) -->
+  <path fill="url(#rim)" stroke="#3B2416" stroke-width="5" stroke-linejoin="round" fill-rule="evenodd"
+    d="M30 10H270C286 10 296 22 296 38V58C296 74 286 84 270 84H30C14 84 4 74 4 58V38C4 22 14 10 30 10Z
+       M16 38C16 34 19 32 22 32H32C35 32 38 34 38 38V56C38 60 35 62 32 62H22C19 62 16 60 16 56Z
+       M284 38C284 34 281 32 278 32H268C265 32 262 34 262 38V56C262 60 265 62 268 62H278C281 62 284 60 284 56Z"/>
+  <!-- блик по верхнему краю бортика -->
+  <path d="M34 15H266" stroke="#F6D3A2" stroke-width="4" stroke-linecap="round"/>
+  <!-- дно подноса -->
+  <rect x="46" y="22" width="208" height="50" rx="10" fill="url(#floor)" stroke="#3B2416" stroke-width="4"/>
+  <g stroke="#D9A162" stroke-width="2" stroke-linecap="round" opacity=".7">
+    <path d="M52 40H248M52 54H248M52 64H248"/>
+  </g>
+</svg>

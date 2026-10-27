@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Засада — «запах»: манящий аромат переманит выставленного бойца -->
+  <ellipse cx="128" cy="210" rx="92" ry="26" fill="#FFF6E6" stroke="#3B2416" stroke-width="8"/>
+  <ellipse cx="128" cy="204" rx="62" ry="12" fill="#E9DCC6"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M84 186C60 150 108 132 84 96C68 72 96 52 84 30" stroke="#3B2416" stroke-width="20"/>
+    <path d="M128 190C104 150 152 128 128 88C112 62 140 40 128 16" stroke="#3B2416" stroke-width="20"/>
+    <path d="M172 186C148 150 196 132 172 96C156 72 184 52 172 30" stroke="#3B2416" stroke-width="20"/>
+    <path d="M84 186C60 150 108 132 84 96C68 72 96 52 84 30" stroke="#C99BF2" stroke-width="10"/>
+    <path d="M128 190C104 150 152 128 128 88C112 62 140 40 128 16" stroke="#E07BC1" stroke-width="10"/>
+    <path d="M172 186C148 150 196 132 172 96C156 72 184 52 172 30" stroke="#C99BF2" stroke-width="10"/>
+  </g>
+  <path d="M210 52L216 66L230 72L216 78L210 92L204 78L190 72L204 66Z" fill="#FFC93C" stroke="#3B2416" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M42 110L46 120L56 124L46 128L42 138L38 128L28 124L38 120Z" fill="#FFC93C" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/>
+</svg>
