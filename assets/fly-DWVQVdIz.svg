@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Перчинка, сила 0: крошечная, но жжётся — встаёт на сильный продукт; накроет её любой.
+       Файл по коду вида (fly) — код в ядре прежний. -->
+  <defs>
+    <circle id="b" cx="128" cy="150" r="74"/>
+    <clipPath id="c"><use href="#b"/></clipPath>
+    <radialGradient id="vol" cx=".34" cy=".28" r=".85">
+      <stop offset="0" stop-color="#fff" stop-opacity=".45"/>
+      <stop offset=".35" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".72" stop-color="#3B2416" stop-opacity="0"/>
+      <stop offset="1" stop-color="#3B2416" stop-opacity=".45"/>
+    </radialGradient>
+  </defs>
+  <!-- жар над перчинкой -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M92 58C80 44 98 34 88 20M128 52C116 38 134 28 124 14M164 58C152 44 170 34 160 20" stroke="#3B2416" stroke-width="13"/>
+    <path d="M92 58C80 44 98 34 88 20M128 52C116 38 134 28 124 14M164 58C152 44 170 34 160 20" stroke="#FF7A1A" stroke-width="6"/>
+  </g>
+  <use href="#b" fill="#3F4250"/>
+  <g clip-path="url(#c)" fill="none" stroke-linecap="round">
+    <!-- морщинки сушёной горошины перца -->
+    <g stroke="#2E3140" stroke-width="7">
+      <path d="M70 120C92 112 104 130 126 122C146 114 160 128 184 120"/>
+      <path d="M60 176C84 168 100 186 124 178C146 170 164 186 196 176"/>
+      <path d="M78 214C98 206 116 220 138 212C156 206 170 216 186 210"/>
+      <path d="M96 92C100 110 94 124 100 138M168 96C162 112 170 128 162 140"/>
+    </g>
+    <g stroke="#717589" stroke-width="4" opacity=".8">
+      <path d="M74 112C94 104 106 120 126 114M66 168C86 160 100 176 122 170"/>
+    </g>
+  </g>
+  <use href="#b" fill="url(#vol)"/>
+  <use href="#b" fill="none" stroke="#3B2416" stroke-width="8"/>
+  <!-- хитрое лицо -->
+  <ellipse cx="106" cy="148" rx="15" ry="14" fill="#fff" stroke="#3B2416" stroke-width="5"/>
+  <ellipse cx="152" cy="148" rx="15" ry="14" fill="#fff" stroke="#3B2416" stroke-width="5"/>
+  <circle cx="111" cy="151" r="7" fill="#3B2416"/><circle cx="157" cy="151" r="7" fill="#3B2416"/>
+  <circle cx="113" cy="147" r="2.5" fill="#fff"/><circle cx="159" cy="147" r="2.5" fill="#fff"/>
+  <path d="M88 128L120 138M170 128L138 138" stroke="#3B2416" stroke-width="8" stroke-linecap="round"/>
+  <path d="M108 182Q132 198 154 178" stroke="#3B2416" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M146 186L158 196" stroke="#FF7A1A" stroke-width="6" stroke-linecap="round"/>
+</svg>
