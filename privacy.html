@@ -6,15 +6,23 @@
 <meta name="robots" content="noindex" />
 <title>Политика конфиденциальности</title>
 <style>
-  :root { --bg:#fbf7f0; --fg:#2b2420; --mute:#6f645c; --line:#e6dccf; --acc:#c4522e; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#1f1b18; --fg:#f2ebe3; --mute:#b3a79c; --line:#3a332d; --acc:#ef8a62; } }
-  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  /* Цвета и формы игры (client/style.css): кремовый стол, чернильный контур, твёрдая тень. Шрифты игры
+     лежат в сборке под хешами, здесь — системные с тем же характером. */
+  :root { --ink:#3b2416; --ink2:#6b5444; --cream:#fff6e6; --paper:#fffdf8; --tile:#f6ead6; --mustard:#ffc93c; --red:#e5484d; --blue-d:#2c6aa3; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--cream); color:var(--ink); font:16px/1.55 Nunito, system-ui, -apple-system, "Segoe UI", sans-serif; }
   main { max-width:640px; margin:0 auto; padding:24px 16px 48px; }
-  h1 { font-size:24px; line-height:1.2; margin:0 0 6px; }
-  h2 { font-size:18px; margin:24px 0 6px; }
-  p.lead { color:var(--mute); margin:0; }
-  a { color:var(--acc); }
-  li { margin:4px 0; }
+  h1 { font-size:26px; line-height:1.2; font-weight:900; margin:0 0 8px; }
+  h1::before { content:""; display:block; width:56px; height:8px; margin-bottom:14px; border-radius:4px; background:linear-gradient(90deg, var(--blue-d) 50%, var(--red) 50%); }
+  h2 { font-size:19px; font-weight:800; margin:24px 0 8px; }
+  section, .card { background:var(--paper); border:3px solid var(--ink); border-radius:18px; box-shadow:0 4px 0 var(--ink); padding:4px 16px 8px; margin:16px 0; }
+  p.lead { color:var(--ink2); margin:0 0 8px; }
+  a { color:var(--blue-d); }
+  ul, ol { padding-left:22px; }
+  li { margin:6px 0; }
+  .btn { display:inline-block; margin:12px 0 4px; padding:12px 22px; border-radius:16px; background:var(--mustard); color:var(--ink); border:3px solid var(--ink); box-shadow:0 4px 0 var(--ink); text-decoration:none; font-weight:800; }
+  .btn:active { transform:translateY(3px); box-shadow:0 1px 0 var(--ink); }
+  code { background:var(--tile); padding:1px 6px; border-radius:6px; }
 </style>
 </head>
 <body>
