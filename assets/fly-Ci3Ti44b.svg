@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Реакция: fly, эмоция «angry» — собрано tools/art/react.py из art/units/fly.svg -->
+  
+  <defs>
+    <circle id="b" cx="128" cy="150" r="74"/>
+    <clipPath id="c"><use href="#b"/></clipPath>
+    <radialGradient id="vol" cx=".34" cy=".28" r=".85">
+      <stop offset="0" stop-color="#fff" stop-opacity=".45"/>
+      <stop offset=".35" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".72" stop-color="#3B2416" stop-opacity="0"/>
+      <stop offset="1" stop-color="#3B2416" stop-opacity=".45"/>
+    </radialGradient>
+  </defs>
+  <!-- жар над перчинкой -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M92 58C80 44 98 34 88 20M128 52C116 38 134 28 124 14M164 58C152 44 170 34 160 20" stroke="#3B2416" stroke-width="13"/>
+    <path d="M92 58C80 44 98 34 88 20M128 52C116 38 134 28 124 14M164 58C152 44 170 34 160 20" stroke="#FF7A1A" stroke-width="6"/>
+  </g>
+  <use href="#b" fill="#3F4250"/>
+  <g clip-path="url(#c)" fill="none" stroke-linecap="round">
+    <!-- морщинки сушёной горошины перца -->
+    <g stroke="#2E3140" stroke-width="7">
+      <path d="M70 120C92 112 104 130 126 122C146 114 160 128 184 120"/>
+      <path d="M60 176C84 168 100 186 124 178C146 170 164 186 196 176"/>
+      <path d="M78 214C98 206 116 220 138 212C156 206 170 216 186 210"/>
+      <path d="M96 92C100 110 94 124 100 138M168 96C162 112 170 128 162 140"/>
+    </g>
+    <g stroke="#717589" stroke-width="4" opacity=".8">
+      <path d="M74 112C94 104 106 120 126 114M66 168C86 160 100 176 122 170"/>
+    </g>
+  </g>
+  <use href="#b" fill="url(#vol)"/>
+  <use href="#b" fill="none" stroke="#3B2416" stroke-width="8"/>
+  <g transform="translate(129 150) rotate(0)"><ellipse cx="-23" cy="0" rx="14" ry="15.7" fill="#fff" stroke="#3B2416" stroke-width="5"/><circle cx="-18.8" cy="3.5" r="7.0" fill="#3B2416"/><circle cx="-16.3" cy="0.4" r="2.4" fill="#fff"/><ellipse cx="23" cy="0" rx="14" ry="15.7" fill="#fff" stroke="#3B2416" stroke-width="5"/><circle cx="18.8" cy="3.5" r="7.0" fill="#3B2416"/><circle cx="21.3" cy="0.4" r="2.4" fill="#fff"/><path d="M-41.2 -23.8L-10.4 -9.799999999999999M41.2 -23.8L10.4 -9.799999999999999" stroke="#3B2416" stroke-width="9" stroke-linecap="round"/><rect x="-16.8" y="29.7" width="33.6" height="12.6" rx="4.2" fill="#fff" stroke="#3B2416" stroke-width="5"/><path d="M-5.6 29.7V42.3M5.6 29.7V42.3" stroke="#3B2416" stroke-width="3"/><path d="M45.400000000000006 -36.4l6 6m0 -6l-6 6" transform="translate(0 0)" stroke="#E5484D" stroke-width="5" stroke-linecap="round"/></g>
+</svg>

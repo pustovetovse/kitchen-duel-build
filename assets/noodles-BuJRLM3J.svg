@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Реакция: noodles, эмоция «shy» — собрано tools/art/react.py из art/units/noodles.svg -->
+  
+  <defs>
+    <path id="b" d="M30 130L226 130C226 196 186 236 128 236C70 236 30 196 30 130Z"/>
+    <clipPath id="c"><use href="#b"/></clipPath>
+    <radialGradient id="vol" cx=".34" cy=".28" r=".85">
+      <stop offset="0" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset=".35" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".72" stop-color="#3B2416" stop-opacity="0"/>
+      <stop offset="1" stop-color="#3B2416" stop-opacity=".38"/>
+    </radialGradient>
+  </defs>
+  <path d="M60 120C40 96 50 58 80 52C104 48 116 70 102 82C90 92 76 82 84 72" stroke="#3B2416" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <path d="M60 120C40 96 50 58 80 52C104 48 116 70 102 82C90 92 76 82 84 72" stroke="#F2C94C" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M44 132C44 92 84 70 128 70C172 70 212 92 212 132Z" fill="#F2C94C" stroke="#3B2416" stroke-width="7" stroke-linejoin="round"/>
+  <g fill="none" stroke="#C9952A" stroke-width="5" stroke-linecap="round"><path d="M66 112C90 86 120 110 142 88C160 106 182 90 196 112"/><path d="M80 126C100 104 128 124 150 104C168 118 184 108 196 124"/></g>
+  <g stroke-linecap="round">
+    <path d="M150 112L214 14M170 116L232 28" stroke="#3B2416" stroke-width="15"/>
+    <path d="M150 112L214 14M170 116L232 28" stroke="#E2A45C" stroke-width="7"/>
+    <path d="M200 36L210 20M218 48L228 34" stroke="#B9763A" stroke-width="7"/>
+  </g>
+  <g fill="#6FBF4B" stroke="#3B2416" stroke-width="4"><circle cx="96" cy="94" r="7"/><circle cx="120" cy="84" r="6"/><circle cx="140" cy="96" r="7"/><circle cx="170" cy="104" r="6"/></g>
+  <g fill="#FF7A1A" stroke="#3B2416" stroke-width="3"><rect x="80" y="104" width="10" height="7" rx="2"/><rect x="156" y="88" width="10" height="7" rx="2"/></g>
+  <use href="#b" fill="#E85D9C"/>
+  <g clip-path="url(#c)">
+    <path d="M30 196L230 196L230 250L30 250Z" fill="#B83A72"/>
+    <path d="M30 150L230 150" stroke="#FFC2DE" stroke-width="10"/>
+  </g>
+  <use href="#b" fill="url(#vol)"/>
+  <use href="#b" fill="none" stroke="#3B2416" stroke-width="8" stroke-linejoin="round"/>
+  <g transform="translate(128 174) rotate(0)"><ellipse cx="-24" cy="0" rx="14" ry="15.7" fill="#fff" stroke="#3B2416" stroke-width="5"/><circle cx="-17.7" cy="1.4" r="7.0" fill="#3B2416"/><circle cx="-15.2" cy="-1.7" r="2.4" fill="#fff"/><ellipse cx="24" cy="0" rx="14" ry="15.7" fill="#fff" stroke="#3B2416" stroke-width="5"/><circle cx="30.3" cy="1.4" r="7.0" fill="#3B2416"/><circle cx="32.8" cy="-1.7" r="2.4" fill="#fff"/><path d="M-38 -22.400000000000002L-10 -26.599999999999998M10 -26.599999999999998L38 -22.400000000000002" stroke="#3B2416" stroke-width="5" stroke-linecap="round"/><path d="M-15.4 34.0q5.2 -5.6 10.2 0t10.2 0t10.2 0" stroke="#3B2416" stroke-width="6" stroke-linecap="round" fill="none"/><ellipse cx="-32.4" cy="22.4" rx="12.6" ry="6.3" fill="#F28C8C"/><ellipse cx="32.4" cy="22.4" rx="12.6" ry="6.3" fill="#F28C8C"/><path d="M54.8 -33.6q-9.8 18.2 0 22.4q9.8 -4.2 0 -22.4z" fill="#7FD3F7" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/></g>
+</svg>

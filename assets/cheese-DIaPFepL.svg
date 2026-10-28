@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Реакция: cheese, эмоция «think» — собрано tools/art/react.py из art/units/cheese.svg -->
+  
+  <defs>
+    <path id="b" d="M24 140L196 52C214 60 230 80 234 104L234 222L24 222Z"/>
+    <clipPath id="c"><use href="#b"/></clipPath>
+    <radialGradient id="vol" cx=".34" cy=".28" r=".85">
+      <stop offset="0" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset=".35" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".72" stop-color="#3B2416" stop-opacity="0"/>
+      <stop offset="1" stop-color="#3B2416" stop-opacity=".38"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset=".7" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".35"/>
+    </linearGradient>
+  </defs>
+  <use href="#b" fill="#DDB000"/>
+  <g clip-path="url(#c)">
+    <path d="M24 140L196 52C214 60 230 80 234 104L24 140Z" fill="#F7D63A"/>
+    <path d="M234 104L234 230L190 230L200 120Z" fill="#A88A00"/>
+    <g fill="#A88A00"><circle cx="60" cy="196" r="14"/><circle cx="214" cy="160" r="12"/><circle cx="176" cy="208" r="9"/><ellipse cx="150" cy="96" rx="14" ry="6"/><circle cx="24" cy="160" r="12"/></g>
+  </g>
+  <use href="#b" fill="url(#vol)"/>
+  <use href="#b" fill="url(#rim)" transform="translate(-6 -6)" clip-path="url(#c)"/>
+  <use href="#b" fill="none" stroke="#3B2416" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M24 140L234 104" stroke="#3B2416" stroke-width="6"/>
+  <circle cx="156" cy="166" r="22" fill="#DFF3FF" fill-opacity=".85" stroke="#3B2416" stroke-width="6"/>
+  <path d="M176 178Q190 196 186 222" stroke="#3B2416" stroke-width="4" fill="none"/>
+  <g transform="translate(129 167) rotate(-3)"><ellipse cx="-27" cy="0" rx="13" ry="14.6" fill="#fff" stroke="#3B2416" stroke-width="5"/><circle cx="-30.9" cy="-5.2" r="6.5" fill="#3B2416"/><circle cx="-28.6" cy="-8.1" r="2.2" fill="#fff"/><circle cx="28.3" cy="-6.5" r="7.2" fill="#3B2416"/><circle cx="31.6" cy="-9.8" r="3" fill="#fff"/><path d="M-40 -19.5L-14 -19.5" stroke="#3B2416" stroke-width="6" stroke-linecap="round"/><path d="M10.099999999999998 -37.699999999999996Q27 -46.800000000000004 43.900000000000006 -35.1" stroke="#3B2416" stroke-width="6" stroke-linecap="round" fill="none"/><path d="M-14.3 38.6L14.3 32.1" stroke="#3B2416" stroke-width="6" stroke-linecap="round"/></g><g transform="translate(96 214) rotate(-30) scale(1.0)"><path d="M-12 10C-16 -4 -10 -16 0 -16C10 -16 16 -6 12 10C8 18 -8 18 -12 10Z" fill="#FFE14D" stroke="#3B2416" stroke-width="5" stroke-linejoin="round"/><path d="M-4 -10V2M4 -10V2" stroke="#3B2416" stroke-width="3" stroke-linecap="round" opacity=".6"/></g><circle cx="196" cy="72" r="7" fill="#fff" stroke="#3B2416" stroke-width="4"/><circle cx="214" cy="52" r="9" fill="#fff" stroke="#3B2416" stroke-width="4"/><circle cx="236" cy="28" r="11" fill="#fff" stroke="#3B2416" stroke-width="4"/>
+</svg>
