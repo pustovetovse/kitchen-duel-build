@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 168">
+  <!-- Холодильник-кафе: козырёк, на дверце — секретный рецепт. Собирает tools/art/fridge.py -->
+  <defs>
+    <rect id="b" x="12" y="14" width="296" height="142" rx="32"/>
+    <clipPath id="c"><use href="#b"/></clipPath>
+  </defs>
+  <ellipse cx="160" cy="160" rx="150" ry="8" fill="#3B2416" opacity=".18"/>
+  <use href="#b" fill="#E96368"/>
+  <g clip-path="url(#c)">
+    <rect x="12" y="122" width="296" height="40" fill="#B2272D"/>
+    <path d="M40 40L100 40" stroke="#F19A9D" stroke-width="10" stroke-linecap="round"/>
+    <rect x="12" y="14" width="296" height="14" fill="#fff" opacity=".18"/>
+  </g>
+  <use href="#b" fill="none" stroke="#3B2416" stroke-width="8"/>
+  <path d="M108 18L108 152" stroke="#3B2416" stroke-width="6"/>
+  <rect x="80" y="50" width="16" height="62" rx="8" fill="#E6E9EE" stroke="#3B2416" stroke-width="5"/>
+  <rect x="124" y="50" width="16" height="62" rx="8" fill="#E6E9EE" stroke="#3B2416" stroke-width="5"/>
+  <g transform="rotate(-4 220 84)"><rect x="170" y="50" width="100" height="68" rx="6" fill="#FFF6E6" stroke="#3B2416" stroke-width="5"/><path d="M184 72H232M184 86H256M184 100H240" stroke="#B7A48F" stroke-width="5" stroke-linecap="round"/><path d="M250 70c-6-8-16-2-10 6l10 9 10-9c6-8-4-14-10-6z" fill="#DE5240" stroke="#3B2416" stroke-width="3"/><circle cx="220" cy="52" r="8" fill="#FFC93C" stroke="#3B2416" stroke-width="4"/></g>
+  <circle cx="44" cy="74" r="10" fill="#FFC93C" stroke="#3B2416" stroke-width="4"/>
+  <rect x="34" y="98" width="20" height="16" rx="4" fill="#7CC74A" stroke="#3B2416" stroke-width="4" transform="rotate(-10 44 106)"/>
+  <g><rect x="16" y="0" width="288" height="28" rx="6" fill="#E96368"/><rect x="16" y="0" width="18" height="28" fill="#FFFDF8"/><rect x="52" y="0" width="18" height="28" fill="#FFFDF8"/><rect x="88" y="0" width="18" height="28" fill="#FFFDF8"/><rect x="124" y="0" width="18" height="28" fill="#FFFDF8"/><rect x="160" y="0" width="18" height="28" fill="#FFFDF8"/><rect x="196" y="0" width="18" height="28" fill="#FFFDF8"/><rect x="232" y="0" width="18" height="28" fill="#FFFDF8"/><rect x="268" y="0" width="18" height="28" fill="#FFFDF8"/><rect x="16" y="0" width="288" height="28" rx="6" fill="none" stroke="#3B2416" stroke-width="5"/><path d="M16 28a9 9 0 0 0 18 0Z" fill="#E96368" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/><path d="M34 28a9 9 0 0 0 18 0Z" fill="#FFFDF8" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/><path d="M52 28a9 9 0 0 0 18 0Z" fill="#E96368" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/><path d="M70 28a9 9 0 0 0 18 0Z" fill="#FFFDF8" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/><path d="M88 28a9 9 0 0 0 18 0Z" fill="#E96368" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/><path d="M106 28a9 9 0 0 0 18 0Z" fill="#FFFDF8" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/><path d="M124 28a9 9 0 0 0 18 0Z" fill="#E96368" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/><path d="M142 28a9 9 0 0 0 18 0Z" fill="#FFFDF8" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/><path d="M160 28a9 9 0 0 0 18 0Z" fill="#E96368" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/><path d="M178 28a9 9 0 0 0 18 0Z" fill="#FFFDF8" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/><path d="M196 28a9 9 0 0 0 18 0Z" fill="#E96368" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/><path d="M214 28a9 9 0 0 0 18 0Z" fill="#FFFDF8" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/><path d="M232 28a9 9 0 0 0 18 0Z" fill="#E96368" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/><path d="M250 28a9 9 0 0 0 18 0Z" fill="#FFFDF8" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/><path d="M268 28a9 9 0 0 0 18 0Z" fill="#E96368" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/><path d="M286 28a9 9 0 0 0 18 0Z" fill="#FFFDF8" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/></g>
+  <path d="M36 156L36 166M284 156L284 166" stroke="#3B2416" stroke-width="10" stroke-linecap="round"/>
+</svg>
