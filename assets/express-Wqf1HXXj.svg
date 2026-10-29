@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <!-- Значок достижения. Собирает tools/art/badges.py -->
+  <path d="M30 74L22 94L34 88L40 96L46 78Z" fill="#E5484D" stroke="#3B2416" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M66 74L74 94L62 88L56 96L50 78Z" fill="#3D86C6" stroke="#3B2416" stroke-width="3.5" stroke-linejoin="round"/>
+  <circle cx="48" cy="46" r="42" fill="#FFC93C" stroke="#3B2416" stroke-width="5"/>
+  <circle cx="48" cy="46" r="42" fill="none" stroke="#FFE48A" stroke-width="3" stroke-dasharray="2 7" stroke-linecap="round" transform="rotate(10 48 46)"/>
+  <circle cx="48" cy="46" r="33" fill="#FFFDF8" stroke="#C99A12" stroke-width="4"/>
+  <path d="M22 30A30 30 0 0 1 40 16" stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none" opacity=".8"/>
+  <svg x="30" y="18" width="46" height="46" viewBox="0 0 128 128">
+  
+  <path d="M30 22H94A10 10 0 0 1 104 32V100H40A10 10 0 0 1 30 90Z" fill="#FFF6E6" stroke="#3B2416" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M30 90A10 10 0 0 0 40 100A10 10 0 0 0 40 80H30" fill="#E9DCC6" stroke="#3B2416" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M94 22A10 10 0 0 1 104 32H84A10 10 0 0 1 94 22Z" fill="#E9DCC6" stroke="#3B2416" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M46 42H86M46 56H80M46 70H74" stroke="#B7A48F" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="84" cy="86" r="14" fill="#E5484D" stroke="#3B2416" stroke-width="5"/>
+  <path d="M78 86l5 5 8-10" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg><path d="M28 30h-14M26 39h-18M28 48h-12" stroke="#3B2416" stroke-width="3.5" stroke-linecap="round"/><circle cx="66" cy="66" r="13" fill="#FFFDF8" stroke="#3B2416" stroke-width="3.5"/><text x="66" y="71" text-anchor="middle" font-family="Unbounded, Nunito, sans-serif" font-weight="800" font-size="14" fill="#3B2416">8</text>
+</svg>

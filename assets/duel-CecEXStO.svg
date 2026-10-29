@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <!-- Значок достижения. Собирает tools/art/badges.py -->
+  <path d="M30 74L22 94L34 88L40 96L46 78Z" fill="#E5484D" stroke="#3B2416" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M66 74L74 94L62 88L56 96L50 78Z" fill="#3D86C6" stroke="#3B2416" stroke-width="3.5" stroke-linejoin="round"/>
+  <circle cx="48" cy="46" r="42" fill="#D98A4E" stroke="#3B2416" stroke-width="5"/>
+  <circle cx="48" cy="46" r="42" fill="none" stroke="#F2B880" stroke-width="3" stroke-dasharray="2 7" stroke-linecap="round" transform="rotate(10 48 46)"/>
+  <circle cx="48" cy="46" r="33" fill="#FFFDF8" stroke="#A65E2E" stroke-width="4"/>
+  <path d="M22 30A30 30 0 0 1 40 16" stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none" opacity=".8"/>
+  <svg x="14" y="22" width="38" height="38" viewBox="0 0 256 256">
+  
+  <defs>
+    <ellipse id="ab" cx="128" cy="142" rx="120" ry="98"/>
+    <clipPath id="ac"><use href="#ab"/></clipPath>
+    <radialGradient id="avol" cx=".34" cy=".28" r=".85">
+      <stop offset="0" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset=".35" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".72" stop-color="#3B2416" stop-opacity="0"/>
+      <stop offset="1" stop-color="#3B2416" stop-opacity=".38"/>
+    </radialGradient>
+  </defs>
+  <use href="#ab" fill="#3E9B45"/>
+  <g clip-path="url(#ac)">
+    <g fill="#1F6E2E">
+      <path d="M128 40C112 80 112 200 128 240C144 200 144 80 128 40Z"/>
+      <path d="M66 48C36 96 42 186 70 232C82 226 74 140 92 44Z"/>
+      <path d="M190 48C220 96 214 186 186 232C174 226 182 140 164 44Z"/>
+      <path d="M14 110C6 140 10 176 24 196C34 166 30 130 34 92Z"/>
+      <path d="M242 110C250 140 246 176 232 196C222 166 226 130 222 92Z"/>
+    </g>
+    <ellipse cx="70" cy="82" rx="32" ry="14" fill="#A6E39A" transform="rotate(-24 70 82)"/>
+  </g>
+  <use href="#ab" fill="url(#avol)"/>
+  <use href="#ab" fill="none" stroke="#3B2416" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M124 44C120 30 126 22 136 20" stroke="#3B2416" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <ellipse cx="100" cy="138" rx="16" ry="18" fill="#fff" stroke="#3B2416" stroke-width="5"/>
+  <ellipse cx="156" cy="138" rx="16" ry="18" fill="#fff" stroke="#3B2416" stroke-width="5"/>
+  <circle cx="100" cy="140" r="8" fill="#3B2416"/><circle cx="156" cy="140" r="8" fill="#3B2416"/>
+  <circle cx="102" cy="137" r="2.4" fill="#fff"/><circle cx="158" cy="137" r="2.4" fill="#fff"/>
+  <path d="M76 110L114 118M180 110L142 118" stroke="#3B2416" stroke-width="10" stroke-linecap="round"/>
+  <path d="M100 178Q128 200 158 176" stroke="#3B2416" stroke-width="9" stroke-linecap="round" fill="none"/>
+</svg><svg x="46" y="22" width="38" height="38" viewBox="0 0 256 256">
+  
+  <defs>
+    <circle id="bb" cx="128" cy="150" r="74"/>
+    <clipPath id="bc"><use href="#bb"/></clipPath>
+    <radialGradient id="bvol" cx=".34" cy=".28" r=".85">
+      <stop offset="0" stop-color="#fff" stop-opacity=".45"/>
+      <stop offset=".35" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".72" stop-color="#3B2416" stop-opacity="0"/>
+      <stop offset="1" stop-color="#3B2416" stop-opacity=".45"/>
+    </radialGradient>
+  </defs>
+  
+  <g fill="none" stroke-linecap="round">
+    <path d="M92 58C80 44 98 34 88 20M128 52C116 38 134 28 124 14M164 58C152 44 170 34 160 20" stroke="#3B2416" stroke-width="13"/>
+    <path d="M92 58C80 44 98 34 88 20M128 52C116 38 134 28 124 14M164 58C152 44 170 34 160 20" stroke="#FF7A1A" stroke-width="6"/>
+  </g>
+  <use href="#bb" fill="#3F4250"/>
+  <g clip-path="url(#bc)" fill="none" stroke-linecap="round">
+    
+    <g stroke="#2E3140" stroke-width="7">
+      <path d="M70 120C92 112 104 130 126 122C146 114 160 128 184 120"/>
+      <path d="M60 176C84 168 100 186 124 178C146 170 164 186 196 176"/>
+      <path d="M78 214C98 206 116 220 138 212C156 206 170 216 186 210"/>
+      <path d="M96 92C100 110 94 124 100 138M168 96C162 112 170 128 162 140"/>
+    </g>
+    <g stroke="#717589" stroke-width="4" opacity=".8">
+      <path d="M74 112C94 104 106 120 126 114M66 168C86 160 100 176 122 170"/>
+    </g>
+  </g>
+  <use href="#bb" fill="url(#bvol)"/>
+  <use href="#bb" fill="none" stroke="#3B2416" stroke-width="8"/>
+  
+  <ellipse cx="106" cy="148" rx="15" ry="14" fill="#fff" stroke="#3B2416" stroke-width="5"/>
+  <ellipse cx="152" cy="148" rx="15" ry="14" fill="#fff" stroke="#3B2416" stroke-width="5"/>
+  <circle cx="111" cy="151" r="7" fill="#3B2416"/><circle cx="157" cy="151" r="7" fill="#3B2416"/>
+  <circle cx="113" cy="147" r="2.5" fill="#fff"/><circle cx="159" cy="147" r="2.5" fill="#fff"/>
+  <path d="M88 128L120 138M170 128L138 138" stroke="#3B2416" stroke-width="8" stroke-linecap="round"/>
+  <path d="M108 182Q132 198 154 178" stroke="#3B2416" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M146 186L158 196" stroke="#FF7A1A" stroke-width="6" stroke-linecap="round"/>
+</svg>
+</svg>

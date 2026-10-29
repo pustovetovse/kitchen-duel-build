@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <!-- Значок достижения. Собирает tools/art/badges.py -->
+  <path d="M30 74L22 94L34 88L40 96L46 78Z" fill="#E5484D" stroke="#3B2416" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M66 74L74 94L62 88L56 96L50 78Z" fill="#3D86C6" stroke="#3B2416" stroke-width="3.5" stroke-linejoin="round"/>
+  <circle cx="48" cy="46" r="42" fill="#B8C4CF" stroke="#3B2416" stroke-width="5"/>
+  <circle cx="48" cy="46" r="42" fill="none" stroke="#E6ECF1" stroke-width="3" stroke-dasharray="2 7" stroke-linecap="round" transform="rotate(10 48 46)"/>
+  <circle cx="48" cy="46" r="33" fill="#FFFDF8" stroke="#7D8B98" stroke-width="4"/>
+  <path d="M22 30A30 30 0 0 1 40 16" stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none" opacity=".8"/>
+  <svg x="34" y="14" width="28" height="28" viewBox="0 0 128 128">
+  
+  <ellipse cx="66" cy="70" rx="58" ry="56" fill="#3B2416" opacity=".18"/>
+  <circle cx="64" cy="64" r="56" fill="#FFFFFF" stroke="#3B2416" stroke-width="6"/>
+  <circle cx="64" cy="64" r="36" fill="#F4EEE4" stroke="#D9CDBB" stroke-width="4"/>
+  <circle cx="64" cy="64" r="47" fill="none" stroke="#5AA9E6" stroke-width="3" stroke-dasharray="4 7" stroke-linecap="round"/>
+  <path d="M30 40A42 42 0 0 1 58 22" stroke="#fff" stroke-width="7" stroke-linecap="round" fill="none" opacity=".9"/>
+</svg><svg x="18" y="40" width="28" height="28" viewBox="0 0 128 128">
+  
+  <ellipse cx="66" cy="70" rx="58" ry="56" fill="#3B2416" opacity=".18"/>
+  <circle cx="64" cy="64" r="56" fill="#FFFFFF" stroke="#3B2416" stroke-width="6"/>
+  <circle cx="64" cy="64" r="36" fill="#F4EEE4" stroke="#D9CDBB" stroke-width="4"/>
+  <circle cx="64" cy="64" r="47" fill="none" stroke="#5AA9E6" stroke-width="3" stroke-dasharray="4 7" stroke-linecap="round"/>
+  <path d="M30 40A42 42 0 0 1 58 22" stroke="#fff" stroke-width="7" stroke-linecap="round" fill="none" opacity=".9"/>
+</svg><svg x="50" y="40" width="28" height="28" viewBox="0 0 128 128">
+  
+  <ellipse cx="66" cy="70" rx="58" ry="56" fill="#3B2416" opacity=".18"/>
+  <circle cx="64" cy="64" r="56" fill="#FFFFFF" stroke="#3B2416" stroke-width="6"/>
+  <circle cx="64" cy="64" r="36" fill="#F4EEE4" stroke="#D9CDBB" stroke-width="4"/>
+  <circle cx="64" cy="64" r="47" fill="none" stroke="#5AA9E6" stroke-width="3" stroke-dasharray="4 7" stroke-linecap="round"/>
+  <path d="M30 40A42 42 0 0 1 58 22" stroke="#fff" stroke-width="7" stroke-linecap="round" fill="none" opacity=".9"/>
+</svg>
+</svg>

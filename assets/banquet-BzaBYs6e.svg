@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <!-- Значок достижения. Собирает tools/art/badges.py -->
+  <path d="M30 74L22 94L34 88L40 96L46 78Z" fill="#E5484D" stroke="#3B2416" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M66 74L74 94L62 88L56 96L50 78Z" fill="#3D86C6" stroke="#3B2416" stroke-width="3.5" stroke-linejoin="round"/>
+  <circle cx="48" cy="46" r="42" fill="#B8C4CF" stroke="#3B2416" stroke-width="5"/>
+  <circle cx="48" cy="46" r="42" fill="none" stroke="#E6ECF1" stroke-width="3" stroke-dasharray="2 7" stroke-linecap="round" transform="rotate(10 48 46)"/>
+  <circle cx="48" cy="46" r="33" fill="#FFFDF8" stroke="#7D8B98" stroke-width="4"/>
+  <path d="M22 30A30 30 0 0 1 40 16" stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none" opacity=".8"/>
+  <svg x="22" y="16" width="50" height="50" viewBox="0 0 64 64">
+    <circle cx="46" cy="21" r="14" fill="#F2B880" stroke="#3B2416" stroke-width="5"/>
+    <path d="M38 12C42 7 51 7 54 13" stroke="#8A4B2A" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <circle cx="44" cy="22" r="2.6" fill="#3B2416"/><circle cx="53" cy="21" r="2.6" fill="#3B2416"/>
+    <path d="M45 28Q49 31 53 27" stroke="#3B2416" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <circle cx="24" cy="41" r="19" fill="#FFD7A8" stroke="#3B2416" stroke-width="5"/>
+    <path d="M10 36C11 24 25 18 34 26C28 24 20 26 16 34Z" fill="#8A4B2A" stroke="#3B2416" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="17" cy="41" r="3.2" fill="#3B2416"/><circle cx="30" cy="41" r="3.2" fill="#3B2416"/>
+    <ellipse cx="12" cy="48" rx="4" ry="2.6" fill="#F28C8C"/><ellipse cx="35" cy="48" rx="4" ry="2.6" fill="#F28C8C"/>
+    <path d="M17 50Q23.5 57 30 50" stroke="#3B2416" stroke-width="4" stroke-linecap="round" fill="none"/></svg><circle cx="66" cy="66" r="13" fill="#FFFDF8" stroke="#3B2416" stroke-width="3.5"/><text x="66" y="71" text-anchor="middle" font-family="Unbounded, Nunito, sans-serif" font-weight="800" font-size="14" fill="#3B2416">3</text>
+</svg>

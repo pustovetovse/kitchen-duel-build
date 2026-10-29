@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <!-- Значок достижения. Собирает tools/art/badges.py -->
+  <path d="M30 74L22 94L34 88L40 96L46 78Z" fill="#E5484D" stroke="#3B2416" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M66 74L74 94L62 88L56 96L50 78Z" fill="#3D86C6" stroke="#3B2416" stroke-width="3.5" stroke-linejoin="round"/>
+  <circle cx="48" cy="46" r="42" fill="#FFC93C" stroke="#3B2416" stroke-width="5"/>
+  <circle cx="48" cy="46" r="42" fill="none" stroke="#FFE48A" stroke-width="3" stroke-dasharray="2 7" stroke-linecap="round" transform="rotate(10 48 46)"/>
+  <circle cx="48" cy="46" r="33" fill="#FFFDF8" stroke="#C99A12" stroke-width="4"/>
+  <path d="M22 30A30 30 0 0 1 40 16" stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none" opacity=".8"/>
+  <svg x="20" y="14" width="56" height="56" viewBox="0 0 64 64">
+    <path d="M16 40C4 36 4 16 18 16C20 4 34 2 38 10C46 2 60 8 56 22C64 26 60 40 48 40Z" fill="#fff" stroke="#3B2416" stroke-width="5" stroke-linejoin="round"/>
+    <rect x="16" y="40" width="32" height="16" rx="3" fill="#fff" stroke="#3B2416" stroke-width="5"/>
+    <path d="M32 22L35 28L41 29L36 33L38 39L32 36L26 39L28 33L23 29L29 28Z" fill="#FFC93C" stroke="#3B2416" stroke-width="3" stroke-linejoin="round"/></svg>
+</svg>
